@@ -43,4 +43,9 @@
     chosen {
         zmk,underglow = &led_strip;
     };
+/ {
+    underglow {
+        compatible = "zmk,rgb-underglow";
+    };
+};
 };
